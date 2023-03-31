@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米商城</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" />
+    <!-- 链接外部样式表 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- by.Moves 2022/11/13-->
+    <!-- 商城主体框架 -->
+    <div class="container">
+        <!-- 1.顶部导航栏 -->
+        <div class="top_nav" id="top_nav">
+            <div class="body w">
+                <!-- 左边列表 -->
+                <ul class="fl">
+                    <li id="l_list"><a href="#">小米官网</a></li>
+                    <li><a href="#">小米商城</a></li>
+                    <li><a href="#">MIUI</a></li>
+                    <li><a href="#">IoT</a></li>
+                    <li><a href="#">云服务</a></li>
+                    <li><a href="#">天星数科</a></li>
+                    <li><a href="#">有品</a></li>
+                    <li><a href="#">小爱开放平台</a></li>
+                    <li><a href="#">企业团购</a></li>
+                    <li><a href="#">资质证照</a></li>
+                    <li><a href="#">协议规则</a></li>
+                    <li><a href="#">下载app</a></li>
+                    <li><a href="#">Select Location</a></li>
+                </ul>
+                <!-- 右边列表 -->
+                <ul class="fr">
+                    <li id="r_list"><a href="#">购物车 (0)</a></li>
+                    <li><a href="#">消息通知</a></li>
+                    <li><a href="#">注册</a></li>
+                    <li><a href="#">登录</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- 2.主展示页面 -->
+        <div class="main_show">
+            <div class="w">
+                <!-- 顶部导航栏 -->
+                <div class="top_nav">
+                    <img src="img/logo-mi.png" alt="">
+                    <ul>
+                        <li><a href="#">Xiaomi手机</a></li>
+                        <li><a href="#">Redmi手机</a></li>
+                        <li><a href="#">电视</a></li>
+                        <li><a href="#">笔记本</a></li>
+                        <li><a href="#">平板</a></li>
+                        <li><a href="#">家电</a></li>
+                        <li><a href="#">路由器</a></li>
+                        <li><a href="#">家电中心</a></li>
+                        <li><a href="#">社区</a></li>
+                    </ul>
+                    <!-- 搜索框 -->
+                    <div class="search">
+                        <input type="text" placeholder="小米手环">
+                        <span class="on_click">搜索</span>
+                    </div>
+                </div>
+                <!-- 轮播图body -->
+                <div class="body">
+                    <div class="l_nav">
+                        <ul>
+                            <li>手机<span>&gt;</span></li>
+                            <li>电视<span>&gt;</span></li>
+                            <li>家电<span>&gt;</span></li>
+                            <li>笔记本 平板<span>&gt;</span></li>
+                            <li>出行 穿戴<span>&gt;</span></li>
+                            <li>耳机 音箱<span>&gt;</span></li>
+                            <li>健康儿童<span>&gt;</span></li>
+                            <li>生活 箱包<span>&gt;</span></li>
+                            <li>智能 路由器<span>&gt;</span></li>
+                            <li>电源 配件<span>&gt;</span></li>
+                        </ul>
+                    </div>
+                    <!-- 左右边小箭头 -->
+                    <a href="#" class="prev">&lt;</a>
+                    <a href="#" class="next">&gt;</a>
+                    <!-- 轮播图小点 -->
+                    <ul class="dot">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <!-- 轮播图下方展示卡片 -->
+                <div class="sub_show">
+                    <div class="nav">
+                        <a href="#">保障服务</a>
+                        <a href="#">企业团购</a>
+                        <a href="#">F码通道</a>
+                        <a href="#">米粉卡</a>
+                        <a href="#">以旧换新</a>
+                        <a href="#">话费充值</a>
+                    </div>
+                    <div class="card">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- 3.商品展示页卡片 -->
+        <!-- 1 -->
+        <div class="main_goods w clearfix">
+            <div class="ad_1"></div>
+            <!-- 商品类别 -->
+            <section>
+                <span class="goods_name">手机</span>
+                <a class="more" href="#">查看更多</a>
+            </section>
+            <!-- 左边大卡片 -->
+            <div class="card_l"><img
+                    src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/059f14c9ba134897be7db7a7286f1bb5.jpg?thumb=1&w=293&h=768&f=webp&q=90"
+                    alt=""></div>
+            <!-- 右边小卡片 -->
+            <div class="card_r">
+                <ul>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202210262033_ef39fca0e37395d07682124770fd3ad9.png?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Redmi Note 12 5G</h3>
+                        <p class="desc">三星 OLED 护眼屏｜骁龙 5G 芯｜5000mAh 电量</p>
+                        <span class="rmb">1199元起</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202210262012_94dd4ca657adcebec0d11ea09dac8a03.png?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Redmi Note 12 Pro</h3>
+                        <p class="desc">IMX766 防抖相机｜OLED 柔性直屏｜67W 闪充</p>
+                        <span class="rmb">1699元起</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202210262024_83bfd34bb3f733d69d342acaf34aea58.png?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Redmi Note 12 Pro+</h3>
+                        <p class="desc">2亿超清防抖相机｜OLED 柔性直屏</p>
+                        <span class="rmb">2199元起</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/50da95e9e4496dcac8704da2deb94f6e.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Redmi Note 11 5G</h3>
+                        <p class="desc">5000mAh大电量</p>
+                        <span class="rmb">1199元起</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/28c14106b688ac7ae88e761564789b37.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Redmi K50</h3>
+                        <p class="desc">2K直屏的狠旗舰</p>
+                        <span class="rmb">2299元起<em>2399元</em></span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/5713971c4bb6512743dfd06023080268.png?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Redmi Note 11T Pro</h3>
+                        <p class="desc">天玑8100｜真旗舰芯</p>
+                        <span class="rmb">1569元起<em>1799元</em></span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202207012000_0b9df066c110f201154013ac373df1d9.png?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Xiaomi 12S Pro</h3>
+                        <p class="desc">骁龙8+ 旗舰处理器 | 徕卡影像</p>
+                        <span class="rmb"> 4399元起<em>4699元</em></span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202208101511_488638d8f8d5dbcf3b66cd82703ecfb9.png?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Redmi K50 至尊版
+                        </h3>
+                        <p class="desc">骁龙8+ ｜1.5K 高清直屏</p>
+                        <span class="rmb">2999元起</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="main_goods w clearfix">
+            <!-- 商品类别 -->
+            <section>
+                <span class="goods_name">智能穿戴</span>
+                <ul>
+                    <li><a href="#">耳机</a></li>
+                    <li> <a href="#">穿戴</a></li>
+                </ul>
+            </section>
+            <!-- 左边大卡片 -->
+            <div class="card_l"><img
+                    src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9895c56a7b792fb9053e3085fc261072.jpg?thumb=1&w=293&h=768&f=webp&q=90"
+                    alt=""></div>
+            <!-- 右边小卡片 -->
+            <div class="card_r">
+                <ul>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202208111200_c1016839eae2c1f5bb79d5afde498e81.png?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Xiaomi Buds 4 Pro</h3>
+                        <p class="desc">48dB智能动态降噪｜骨声纹通话降噪 | 独立空间音频</p>
+                        <span class="rmb">1049元<em>1099元</em></span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202204211422_ce41ed00fe7fb79df35101222880121d.png?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Xiaomi Buds 3 Pro</h3>
+                        <p class="desc">40dB自适应降噪｜空间音频 ｜ HiFi高保真音质</p>
+                        <span class="rmb">499元<em>699元</em></span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0b271a074e087848357aa61ae665b214.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Xiaomi Buds 3</h3>
+                        <p class="desc">40dB宽频主动降噪 | HiFi高保真音质 | HRTF专业调音</p>
+                        <span class="rmb">299元<em>499元</em></span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202205241527_fb27e27e6587254da27de5ba9c889512.png?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Redmi Buds 4</h3>
+                        <p class="desc">35dB 智能主动降噪 | AI 通话降噪 | 30小时超长续航</p>
+                        <span class="rmb">199元<em>229元</em></span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/11570d5371f16d2d9b19f504e09d01f0.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Redmi Buds 3</h3>
+                        <p class="desc">轻巧半入耳 | 通话降噪 | 20小时长续航</p>
+                        <span class="rmb">169元<em>199元</em></span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2fcf24e40ff09a254857ac8b4ace25b8.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Redmi Buds 3 青春版</h3>
+                        <p class="desc">轻巧真无线 | 猫耳状稳固设计 | 18小时长续航</p>
+                        <span class="rmb">99元</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202111052007_e8e92e67988ebaff6e075412a54c3c66.png?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">小米真无线蓝牙耳机Air2 SE</h3>
+                        <p class="desc">大尺寸动圈单元 | 20小时持久续航 | 双麦克风通话降噪</p>
+                        <span class="rmb">109元<em>169元</em></span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202211011345_af7099caabc27a2d4c087aba71b412d4.png"
+                            alt="">
+                        <h3 class="title">Xiaomi 真无线降噪耳机 3 Pro</h3>
+                        <p class="desc"> 流光白</p>
+                        <span class="rmb">549元<em>699元</em></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="main_goods w clearfix">
+            <div class="ad_2"></div>
+            <!-- 商品类别 -->
+            <section>
+                <span class="goods_name">生活电器</span>
+                <ul>
+                    <li><a href="#">电暖器</a></li>
+                    <li> <a href="#">扫地机</a></li>
+                    <li> <a href="#">空净</a></li>
+                    <li> <a href="#">清洁</a></li>
+                </ul>
+            </section>
+            <!-- 左边大卡片 -->
+            <div class="card_l"><img
+                    src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/06d75467973ea188caa56e18a67647b4.png?thumb=1&w=293&h=768&f=webp&q=90"
+                    alt=""></div>
+            <!-- 右边小卡片 -->
+            <div class="card_r">
+                <ul>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f0408c24b677c7fe8b3cc402ec062334.png?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Redmi G Pro 游戏本</h3>
+                        <p class="desc">狂风调校的高能电竞本</p>
+                        <span class="rmb">8999元起</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0f8abb2bc3947c4679e3f1b2aafc28c0.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Redmi Book Pro 15 2022</h3>
+                        <p class="desc">全新12代英特尔处理器</p>
+                        <span class="rmb">5599元起</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e3c300330221ad788569e4fb1e6f932f.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Redmi Book Pro 14 2022</h3>
+                        <p class="desc">全新12代英特尔处理器，2.5K 120Hz高清屏，可选MX550独立显卡,CNC一体精雕工艺</p>
+                        <span class="rmb">5399元起</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b60f8c50789c123c11e060e7b283a315.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">RedmiBook Pro 15 R5/16G/512G 灰</h3>
+                        <p class="desc"> 3.2K 超清视网膜全面屏 | 微米级一体精雕工艺</p>
+                        <span class="rmb">5299元</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/01d9571051a91e540e5c644fa60cc858.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Pro 14 增强版 i5 独显 - Win11</h3>
+                        <p class="desc">2.5K超视网膜全面屏</p>
+                        <span class="rmb">4799元<em>5599元</em></span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202210261040_b679a0f353b618fc79a8b7ea930a19a1.png?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">Redmi Pad</h3>
+                        <p class="desc">入门平板，屏幕/外观/系统三大升级</p>
+                        <span class="rmb">1299元起</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ed0541d2337dc4fff6e52c2b7f162fe5.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+                            alt="">
+                        <h3 class="title">小米平板5 Pro</h3>
+                        <p class="desc">骁龙870芯片 | 2.5K超高清｜120HZ高刷新率</p>
+                        <span class="rmb">2499元起</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202208231455_3b2230aab84ea94eafca650078e0b4b0.png"
+                            alt="">
+                        <h3 class="title">Pro 15 增强版
+                        </h3>
+                        <p class="desc">I5 独显 灰 Win11 灰色</p>
+                        <span class="rmb">6499元</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 4.右侧小菜单 -->
+        <div class="sidebar">
+            <ul>
+                <li><a>手机APP</a></li>
+                <li><a>个人中心</a></li>
+                <li><a>售后服务</a></li>
+                <li><a>人工客服</a></li>
+                <li><a>购物车</a></li>
+                <li><a href="#top_nav">回顶部</a></li>
+            </ul>
+        </div>
+        <!-- 5.底部导航 -->
+        <div class="bottom">
+            <div class="nav w">
+                <ul class="clearfix">
+                    <li><a href="#">预约维修服务</a></li>
+                    <li><a href="#">7天无理由退货</a></li>
+                    <li><a href="#">15天免费换货</a></li>
+                    <li><a href="#">满69元包邮</a></li>
+                    <li><a href="#">1100余家售后网点</a></li>
+                </ul>
+                <div id="line"></div>
+                <div class="dlis clearfix">
+                    <dl>
+                        <dt>选购指南</dt>
+                        <dd><a href="#">手机</a></dd>
+                        <dd><a href="#">电视</a></dd>
+                        <dd><a href="#">笔记本</a></dd>
+                        <dd><a href="#">平板</a></dd>
+                        <dd><a href="#">穿戴</a></dd>
+                        <dd><a href="#">耳机</a></dd>
+                        <dd><a href="#">家电</a></dd>
+                        <dd><a href="#">路由器</a></dd>
+                        <dd><a href="#">音箱</a></dd>
+                        <dd><a href="#">配件</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>服务中心</dt>
+                        <dd><a href="#">申请售后</a></dd>
+                        <dd><a href="#">售后政策</a></dd>
+                        <dd><a href="#">维修服务价格</a></dd>
+                        <dd><a href="#">订单查询</a></dd>
+                        <dd><a href="#">以旧换新</a></dd>
+                        <dd><a href="#">保障服务</a></dd>
+                        <dd><a href="#">防伪查询</a></dd>
+                        <dd><a href="#">F码通道</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>线下门店</dt>
+                        <dd><a href="#">小米之家</a></dd>
+                        <dd><a href="#">服务网点</a></dd>
+                        <dd><a href="#">授权体验店/专区</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>关于小米</dt>
+                        <dd><a href="#">了解小米</a></dd>
+                        <dd><a href="#">加入小米</a></dd>
+                        <dd><a href="#">投资者关系</a></dd>
+                        <dd><a href="#">环境，社会及管治</a></dd>
+                        <dd><a href="#">廉洁举报</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>关注我们</dt>
+                        <dd><a href="#">新浪微博</a></dd>
+                        <dd><a href="#">官方微信</a></dd>
+                        <dd><a href="#">联系我们</a></dd>
+                        <dd><a href="#">公益基金会</a></dd>
+                    </dl>
+                    <!-- 联系客服 -->
+                    <div class="contact">
+                        <p class="phone">400-100-5678</p>
+                        <p class="date">8:00-18:00（仅收市话费）</p>
+                        <a class="btn" href="#">人工客服</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 签名 灵魂所在-->
+        <div id="signature">探索黑科技，小米为发烧而生！</div>
+    </div>
+    <!-- 引入Js文件 -->
+    <script src="script.js"></script>
+</body>
+
+</html>
